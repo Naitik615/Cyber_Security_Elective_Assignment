@@ -1,0 +1,14 @@
+# Create new user
+sudo adduser Naitik
+
+# Set password
+sudo passwd Naitik
+
+# Add user to sudo group
+sudo usermod -aG sudo Naitik
+
+# Switch user
+su - Naitik
+
+# Delete user
+sudo deluser Naitik
